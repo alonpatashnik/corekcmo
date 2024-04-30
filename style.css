@@ -1,0 +1,46 @@
+html {
+    background-color: rgba(0,0,0,0.5);
+    background: url(brickbg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3);
+    margin: 0;
+}
+
+#middle {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom {
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#bottom a {
+    color: white;
+    text-decoration: underline;
+}
