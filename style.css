@@ -1,0 +1,136 @@
+:root {
+    --bulma-primary-h: #0057A6;
+    --bulma-body-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+/*---------------------------------------------------------------------------HOME STYLES---------------------------------------------------------------------------*/
+/*-------------------------NAVBAR STYLES-------------------------*/
+#navbar_section{
+    background-color: #e5e5e5;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar_row {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.nav_menu, .nav_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_link {
+    margin-left: 20px;
+    color: #0057A6;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.nav_link:hover {
+    background-color: #b9c7bd;
+}
+
+#logo {
+    max-height: 75px;
+}
+
+/*-------------------------HERO STYLES-------------------------*/
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Hero_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*-------------------------ABOUT US STYLES-------------------------*/
+#about_us_row {
+    width: 80%;
+    margin: auto;
+}
+
+#about_us_section {
+    padding: 50px 0;
+    background-color: #e5e5e5;
+    color: #000000!important;
+}
+
+#about_us_section .title {
+    font-size: 28px;
+    color: #000000;
+}
+
+#about_us_text {
+    padding-right: 40px;
+}
+
+#about_us_image {
+    display: flex;
+    align-items: center;
+}
+
+/*-------------------------PROPERTIES STYLES-------------------------*/
+#properties_section {
+    padding: 50px 0;
+    background-color: #0057A6;
+    color: #ffffff;
+}
+
+#properties_header {
+    display: flex;
+    justify-content: center;
+}
+
+#properties_header .title {
+    font-size: 28px;
+}
+
+/*-------------------------RESPONSIVE STYLES-------------------------*/
+@media screen and (max-width: 650px) {
+    .navbar_row {
+        padding: 10px;
+    }
+
+    .nav_link {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .title {
+        font-size: 20px!important;
+    }
+
+    .subtitle {
+        font-size: 14px!important;
+    }
+
+    #about_us_text {
+        padding-right: 12px;
+    }
+
+    #about_us_text h2 {
+        display: flex;
+        justify-content: center;
+    }
+}
