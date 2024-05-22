@@ -64,6 +64,10 @@ a {
     flex-direction: column;
 }
 
+#home_hero .title {
+    color: #ffffff!important;
+}
+
 /*-------------------------ABOUT US STYLES-------------------------*/
 #about_us_row {
     width: 80%;
@@ -94,7 +98,7 @@ a {
 #properties_section {
     padding: 50px 0;
     background-color: #0057A6;
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
 #properties_header {
@@ -118,7 +122,7 @@ a {
 }
 
 .card-footer-item, #featured_properties .card-header-title {
-    color: #ffffff;
+    color: #ffffff!important;
 }
 
 .card-footer:hover {
