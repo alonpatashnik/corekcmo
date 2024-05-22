@@ -5,33 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
 </head>
 <body id="body">
-    <div id="top">
-        <div class="row">
-            <img id="logo" src="Core_Logo.png" alt="Core Urban Renew LLP Logo" height="75px">
+    <section id="navbar_section">
+        <nav class="navbar_row">
+            <a href="#" class="nav_logo">
+                <img id="logo" src="assets/Core_Logo.png" alt="Core Urban Renew LLP Logo" height="75px">
+            </a>
+            <ul class="nav_menu">
+                <li class="nav-item">
+                    <a href="#" class="nav_link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav_link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav_link">Projects</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <section class="hero is-large">
+        <div class="hero-body">
+          <p class="title">Core Urban Renew LLC</p>
+          <p class="subtitle">Rebuilding Neighborhoods one Home at a Time</p>
         </div>
-    </div>
-    <div id="middle">
-        <div class="row">
-            <div>Core Urban Renew LLP</div>
-            <div class="h2">Website Under Construction</div>
+    </section>
+    <section id="about_us_section">
+        <div id="about_us_row" class="columns">
+            <div id="about_us_text" class="column">
+                <h2 class="title">About Us</h2>
+                <p>CORE URBAN RENEW LLP. (CORE) is a mission based developer focused solely on urban Kansas City, Missouri properties.  Founded in 2020 to improve housing quality in Urban Renewal Areas, CORE has solidified partnerships with contractors fully capable of supporting our vision in neighborhood developments.</p>
+                <br>
+                <p>CORE has developed 48 properties since 2021. Our experience has included management of several contractors, and the development of a network of preferred contractors. Through this work we have supported extensive rehabilitation projects that have addressed neglect at the most egregious levels in homes built 90+ years ago. In short, we have seen it all.</p>
+                <br>
+                <p>We have worked with investors, for profit and non-profit entities, and for our own interests in developing urban Kansas City properties.  In each case, we have been acknowledged as ethical, committed and hard working in our approach to a quality outcome.</p>
+            </div>
+            <div id="about_us_image" class="column">
+                <img src="assets/About_Us_Image.jpg" alt="Blue Hills Home">
+            </div>
         </div>
-    </div>
-    <div id="footer">
-        <div class="row">
+    </section>
+    <section id="properties_section">
+        <div id="properties_header">
+            <h2 class="title">Properties</h2>
+        </div>
+        <div id="featured_properties" class="columns">
             <div class="column">
-                <div>Karen Reilly</div>
-                <div>E: <a href="mail:karenreilly13@gmail.com">karenreilly13@gmail.com</a></div>
-                <div>P: <a href="tel:8166517050">816-651-7050</a></div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">Blue Hills Home</p>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="assets/About_Us_Image.jpg" alt="Blue Hills Home"/>
+                        </figure>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="Properties/BlueHills.html" class="card-footer-item">See More</a>
+                    </footer>
+                </div>
             </div>
             <div class="column">
-                <div>Steve Cook</div>
-                <div>E: <a href="mail:scook@corekcmo.com">scook@corekcmo.com</a></div>
-                <div>P: <a href="tel:8166450974">816-645-0974</a></div>
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">Troostwood Home</p>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="assets/Troostwood_Exterior_After.jpg" alt="Troostwood Home"/>
+                        </figure>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">See More</a>
+                    </footer>
+                </div>
             </div>
-        </div>
-        
-    </div>
+            <div class="column">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">Oak Park Home</p>
+                    </header>
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="assets/Oak_Park_Exterior_After.jpg" alt="Oak Park Home"/>
+                        </figure>
+                    </div>
+                    <footer class="card-footer">
+                        <a href="#" class="card-footer-item">See More</a>
+                    </footer>
+                </div>
+            </div>
+          </div>
+    </section>
 </body>
 </html>

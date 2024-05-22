@@ -50,7 +50,7 @@ a {
 
 /*-------------------------HERO STYLES-------------------------*/
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Hero_2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Hero_2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,10 +100,67 @@ a {
 #properties_header {
     display: flex;
     justify-content: center;
+    padding-bottom: 38px;
 }
 
 #properties_header .title {
     font-size: 28px;
+}
+
+#featured_properties {
+    width: 80%;
+    margin: auto;
+}
+
+.card-header-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-footer-item, #featured_properties .card-header-title {
+    color: #ffffff;
+}
+
+.card-footer:hover {
+    background-color: #b9c7bd;
+}
+
+/*---------------------------------------------------------------------------BLUEHILLS #1 STYLES---------------------------------------------------------------------------*/
+/*-------------------------BLUEHILLS IMAGES STYLES-------------------------*/
+#bluehills_section {
+    padding-top: 50px;
+    background-color: #e5e5e5;
+    padding-bottom: 38px;
+}
+
+#hero_bluehills {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Hero_Image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#bluehills_row {
+    width: 80%;
+    margin: auto;
+}
+
+#bluehills_row .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bluehills_row .title {
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+
+.before_large, .after_large {
+    margin-bottom: 24px;
 }
 
 /*-------------------------RESPONSIVE STYLES-------------------------*/
@@ -132,5 +189,17 @@ a {
     #about_us_text h2 {
         display: flex;
         justify-content: center;
+    }
+
+    #bluehills_row .title {
+        margin-bottom: 24px;
+        font-size: 28px;
+    }
+
+    #bluehills_section {
+        padding-top: 24px;
+    }
+    #bluehill_before {
+        margin-bottom: 26px;
     }
 }
