@@ -126,8 +126,8 @@ a {
 }
 
 /*---------------------------------------------------------------------------BLUEHILLS #1 STYLES---------------------------------------------------------------------------*/
-/*-------------------------BLUEHILLS IMAGES STYLES-------------------------*/
-#bluehills_section {
+/*-------------------------INDV HOME IMAGES STYLES-------------------------*/
+#bluehills_section, #oakpark_section {
     padding-top: 50px;
     background-color: #e5e5e5;
     padding-bottom: 38px;
@@ -141,19 +141,27 @@ a {
     position: relative;
 }
 
-#bluehills_row {
+#hero_oakpark {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/oakpark/oakpark_hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#bluehills_row, #oakpark_row {
     width: 80%;
     margin: auto;
 }
 
-#bluehills_row .column {
+#bluehills_row .column, #oakpark_row .column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#bluehills_row .title {
+#bluehills_row .title, #oakpark_row .title {
     color: #000000;
     margin-bottom: 50px;
     font-size: 32px;
@@ -176,6 +184,7 @@ a {
 
     .title {
         font-size: 20px!important;
+        color: #ffffff;
     }
 
     .subtitle {
