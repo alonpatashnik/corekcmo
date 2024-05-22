@@ -64,8 +64,12 @@ a {
     flex-direction: column;
 }
 
-#home_hero .title {
+#home_hero .title, #hero_bluehills, #hero_oakpark {
     color: #ffffff!important;
+}
+
+#home_hero .subtitle, #hero_bluehills .subtitle, #hero_oakpark .subtitle {
+    color: hsl(222 15% 71% / 1)
 }
 
 /*-------------------------ABOUT US STYLES-------------------------*/
@@ -123,6 +127,10 @@ a {
 
 .card-footer-item, #featured_properties .card-header-title {
     color: #ffffff!important;
+}
+
+.card-header, .card-footer {
+    background-color: #000000;
 }
 
 .card-footer:hover {
