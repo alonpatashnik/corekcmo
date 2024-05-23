@@ -165,6 +165,7 @@ a {
 #bluehills_row, #oakpark_row {
     width: 80%;
     margin: auto;
+    max-width: 1080px;
 }
 
 #bluehills_row .column, #oakpark_row .column {
