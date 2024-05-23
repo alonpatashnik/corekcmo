@@ -1,6 +1,6 @@
 :root {
     --bulma-primary-h: #0057A6;
-    --bulma-body-color: #000000;
+    --bulma-body-color: #000000!important;
     padding: 0;
     margin: 0;
 }
@@ -145,28 +145,49 @@ a {
     background-color: #b9c7bd;
 }
 
+/*-----------------------FOOTER STYLES---------------------------*/
+.footer {
+    --bulma-footer-background-color: #e5e5e5!important ;
+    --bulma-footer-padding: 50px 25px!important;
+    background-color: var(--bulma-footer-background-color);
+    padding: var(--bulma-footer-padding);
+    color: var(--bulma-body-color);
+}
+
+#footer_section .columns {
+    width: 80%;
+    margin: auto;
+}
+
+#footer_section .column p {
+    margin-bottom: 0px;
+}
+
+
 /*---------------------------------------------------------------------------INDV HOMES PAGES STYLES---------------------------------------------------------------------------*/
-/*--------------------------------------------------*/
 #indv_home_section {
     padding-top: 50px;
     background-color: #e5e5e5;
     padding-bottom: 38px;
 }
 
-#hero_bluehills {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bluehills/bluehills_hero.jpg");
+#hero_bluehills, #hero_oakpark, #hero_troostwood {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
+#hero_bluehills {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bluehills/bluehills_hero.jpg");
+}
+
 #hero_oakpark {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/oakpark/oakpark_hero.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+}
+
+#hero_troostwood {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/troostwood/troostwood_hero.jpg");
 }
 
 #indv_home_row {
@@ -178,7 +199,7 @@ a {
 #indv_home_row .column {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
