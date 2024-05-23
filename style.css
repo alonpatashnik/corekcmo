@@ -132,10 +132,13 @@ a {
 
 .card {
     --bulma-card-footer-background-color: hsl(0,0%,0%)!important;
+    --bulma-card-header-background-color: hsl(0,0%,0%)!important;
 }
 
 .card-header, .card-footer {
     background-color: var(--bulma-card-footer-background-color);
+    background-color: var(--bulma-card-header-background-color);
+
 }
 
 .card-footer:hover {
