@@ -113,12 +113,12 @@ a {
 
 #properties_header .title {
     font-size: 28px;
+    color: #ffffff!important;
 }
 
 #featured_properties {
     width: 80%;
     margin: auto;
-    color: #ffffff!important;
 }
 
 .card-header-title {
@@ -130,8 +130,12 @@ a {
     color: #ffffff!important;
 }
 
+.card {
+    --bulma-card-footer-background-color: hsl(0,0%,0%)!important;
+}
+
 .card-header, .card-footer {
-    background-color: #000000!important;
+    background-color: var(--bulma-card-footer-background-color);
 }
 
 .card-footer:hover {
