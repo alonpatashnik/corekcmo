@@ -64,7 +64,7 @@ a {
     flex-direction: column;
 }
 
-#home_hero .title, #hero_bluehills, #hero_oakpark {
+#home_hero .title, #hero_bluehills .title, #hero_oakpark .title {
     color: #ffffff!important;
 }
 
@@ -118,6 +118,7 @@ a {
 #featured_properties {
     width: 80%;
     margin: auto;
+    color: #ffffff!important;
 }
 
 .card-header-title {
@@ -130,7 +131,7 @@ a {
 }
 
 .card-header, .card-footer {
-    background-color: #000000;
+    background-color: #000000!important;
 }
 
 .card-footer:hover {
