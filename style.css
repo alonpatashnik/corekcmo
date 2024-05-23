@@ -50,7 +50,7 @@ a {
 
 /*-------------------------HERO STYLES-------------------------*/
 .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Hero_2.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/home/home_hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -142,16 +142,16 @@ a {
     background-color: #b9c7bd;
 }
 
-/*---------------------------------------------------------------------------BLUEHILLS #1 STYLES---------------------------------------------------------------------------*/
-/*-------------------------INDV HOME IMAGES STYLES-------------------------*/
-#bluehills_section, #oakpark_section {
+/*---------------------------------------------------------------------------INDV HOMES PAGES STYLES---------------------------------------------------------------------------*/
+/*--------------------------------------------------*/
+#indv_home_section {
     padding-top: 50px;
     background-color: #e5e5e5;
     padding-bottom: 38px;
 }
 
 #hero_bluehills {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/Hero_Image.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bluehills/bluehills_hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,20 +166,20 @@ a {
     position: relative;
 }
 
-#bluehills_row, #oakpark_row {
+#indv_home_row {
     width: 80%;
     margin: auto;
     max-width: 1080px;
 }
 
-#bluehills_row .column, #oakpark_row .column {
+#indv_home_row .column {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#bluehills_row .title, #oakpark_row .title {
+#indv_home_row .title {
     color: #000000;
     margin-bottom: 50px;
     font-size: 32px;
