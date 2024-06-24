@@ -64,11 +64,12 @@ a {
     flex-direction: column;
 }
 
-#home_hero .title, #hero_bluehills .title, #hero_oakpark .title {
+#home_hero .title, #hero_bluehills .title, #hero_oakpark .title, #hero_mannheim .title, #hero_bluehills2 .title {
     color: #ffffff!important;
+    letter-spacing: 5!important;
 }
 
-#home_hero .subtitle, #hero_bluehills .subtitle, #hero_oakpark .subtitle {
+#home_hero .subtitle, #hero_bluehills .subtitle, #hero_oakpark .subtitle, #hero_mannheim .subtitle, #hero_bluehills2 .subtitle {
     color: hsl(222 15% 71% / 1)
 }
 
@@ -171,11 +172,15 @@ a {
     padding-bottom: 38px;
 }
 
-#hero_bluehills, #hero_oakpark, #hero_troostwood {
+#hero_bluehills, #hero_oakpark, #hero_troostwood, #hero_mannheim, #hero_bluehills2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+
+#hero_bluehills2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/bluehills2/Bluehills2_Hero.jpg");
 }
 
 #hero_bluehills {
@@ -188,6 +193,10 @@ a {
 
 #hero_troostwood {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/troostwood/troostwood_hero.jpg");
+}
+
+#hero_mannheim {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("assets/mannheim/Mannheim_Hero.jpg");
 }
 
 #indv_home_row {
